@@ -25,6 +25,20 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4dae638f-f308-41c1-8c9c-856c80e70c56"
+      }
+    },
+    "owner": "tommysosa"
   }
 }
